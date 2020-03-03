@@ -17,7 +17,7 @@ function Counter(props) {
   return (
     <div>
       <button onClick={() => dispatch({ type: "INCREMENT" })}>Increment</button>
-      <Button text={`the current counter is ${counter}`}></Button>
+      <p>the current counter is {counter}</p>
       <button onClick={() => dispatch({ type: "DECREMENT" })}>Decrement</button>
     </div>
   );
